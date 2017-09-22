@@ -1,5 +1,7 @@
-@Library("jenkinspipeline")
+library("jenkinspipeline")
 
 node() {
+    echo "--------------------------- Before -------------------------"
     startingPoint()
+    echo "--------------------------- After --------------------------"
 }
