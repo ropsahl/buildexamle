@@ -1,0 +1,5 @@
+@Library("jenkinspipeline")
+
+node() {
+    startingPoint()
+}
